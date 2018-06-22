@@ -25,7 +25,7 @@ class Net(nn.Module):
         x = self.fc2(x)
         return x
 
-epochs = 10
+epochs = 5
 batch_sz = 100
 learning_rate = 0.001
 
